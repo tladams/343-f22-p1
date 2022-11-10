@@ -32,30 +32,32 @@
   }
 
   .page_background {
-    background-color: rgb(205, 247, 166);
+    background-color: rgb(183, 248, 123);
     border: 5px solid rgb(56, 208, 18);
-    width: 99%;
+    width: 99.3%;
     height: 630px;
   }
 
   .name {
     width: 500px;
-    height: 30px;
+    height: 100px;
     border: 1px solid rgb(56, 208, 18);
-    background-color: #fdfdfd;
+    background-color: rgb(205, 247, 166);
     justify-content: space-around;
-    display: flex;
-    flex-direction: row;
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
   }
 
   .email {
-    width: 600px;
+    width: 900px;
     height: 30px;
     border: 1px solid rgb(56, 208, 18);
-    background-color: #fdfdfd;
+    background-color: rgb(205, 247, 166);
     justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 

@@ -1,6 +1,7 @@
 .topnav {
     background-color: rgb(251, 3, 3);
     overflow: hidden;
+    text-align: center;
   }
   
   /* Style the links inside the navigation bar */
@@ -37,6 +38,7 @@
     border: 5px solid rgb(251, 3, 3);
     width: 99%;
     height: 630px;
+    
   }
 
   .book {
@@ -59,6 +61,6 @@
   .button {
     width: 100px;
     height: 25px;
-    background-color: rgb(247, 166, 166);
+    background-color: rgb(244, 106, 106);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }

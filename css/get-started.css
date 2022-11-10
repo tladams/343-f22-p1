@@ -1,6 +1,7 @@
 .topnav {
     background-color: rgb(25, 62, 248);
     overflow: hidden;
+    text-align: center;
   }
   
   /* Style the links inside the navigation bar */
@@ -31,6 +32,8 @@
     border: 5px solid rgb(25, 62, 248);
     width: 99%;
     height: 630px;
+    display: block;
+    align-items: center;
   }
 
   .image {
