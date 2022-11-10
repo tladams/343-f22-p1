@@ -52,15 +52,10 @@
     font-size: 16px;
   }
 
-  .right-nav {
-    align-items: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-  }
-
   .button {
     width: 100px;
     height: 25px;
     background-color: rgb(244, 106, 106);
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
