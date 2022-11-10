@@ -1,0 +1,73 @@
+.topnav {
+    background-color: rgb(251, 218, 3);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgb(251, 127, 3);
+    color: white;
+  }
+
+  .image {
+    width: 300px;
+    height: 100px;
+  }
+
+  .book {
+    width: 150px;
+    height: 200px;
+    justify-content: space-around;
+  }
+
+  .page_background {
+    background-color: rgb(247, 236, 166);
+    border: 5px solid rgb(251, 218, 3);
+    width: 99%;
+    height: 630px;
+  }
+
+  .search {
+    align-items: right;
+  }
+
+  .card {
+    position:relative;
+    display:block;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:rgb(247, 236, 166);;
+    background-clip:border-box;
+    border-radius:.25rem;
+    width: 9.5rem; 
+    height: 15rem;
+    font-size: 12px;
+  }
+
+  .text {
+    font-size: 12px;
+    justify-content: space-evenly;
+  }
+
+  .font {
+    font-family: Josefin Sans;
+    src: url()
+  }

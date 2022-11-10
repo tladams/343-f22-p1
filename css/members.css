@@ -1,0 +1,64 @@
+.topnav {
+    background-color: rgb(56, 208, 18);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgb(251, 127, 3);
+    color: white;
+  }
+
+  .image {
+    width: 300px;
+    height: 100px;
+  }
+
+  .page_background {
+    background-color: rgb(205, 247, 166);
+    border: 5px solid rgb(56, 208, 18);
+    width: 99%;
+    height: 630px;
+  }
+
+  .name {
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgb(56, 208, 18);
+    background-color: #fdfdfd;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .email {
+    width: 600px;
+    height: 30px;
+    border: 1px solid rgb(56, 208, 18);
+    background-color: #fdfdfd;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .table {
+    align-items: center;
+  }
