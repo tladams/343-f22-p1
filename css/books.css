@@ -71,3 +71,7 @@
     font-family: Josefin Sans;
     src: url()
   }
+
+  body {
+    margin: 0;
+  }
