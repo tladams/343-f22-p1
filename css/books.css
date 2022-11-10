@@ -11,7 +11,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Change the color of links on hover */
@@ -40,8 +40,10 @@
   .page_background {
     background-color: rgb(247, 236, 166);
     border: 5px solid rgb(251, 218, 3);
-    width: 99%;
-    height: 630px;
+    width: 99.3%;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
   }
 
   .search {
@@ -59,7 +61,9 @@
     border-radius:.25rem;
     width: 9.5rem; 
     height: 15rem;
-    font-size: 12px;
+    font-size: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
   }
 
   .text {
@@ -67,11 +71,26 @@
     justify-content: space-evenly;
   }
 
-  .font {
-    font-family: Josefin Sans;
-    src: url()
-  }
-
   body {
     margin: 0;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+  }
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items: flex-end;
+    width: 30%;
+    height: 100px;
+  }
+
+  .books-div {
+    display: flex;
+    flex-direction: row;
   }

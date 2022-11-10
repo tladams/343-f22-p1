@@ -12,7 +12,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Change the color of links on hover */
@@ -31,7 +31,7 @@
     background-color: rgb(242, 166, 247);
     border: 5px solid rgb(171, 4, 254);
     width: 99.3%;
-    height: 625px;
+    height: 645px;
     text-align: center;
     align-items: center;
   }
@@ -47,10 +47,10 @@
 
   .text {
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .big-text {
     font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }

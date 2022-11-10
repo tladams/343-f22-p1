@@ -11,7 +11,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Change the color of links on hover */
@@ -28,7 +28,7 @@
 
   .table {
     width: 98.6%;
-    height: 650px;
+    height: 635px;
     border: 10px solid rgb(251, 127, 3);
     background-color: #fcc572;
     align-items: center;
@@ -46,7 +46,7 @@
     background-color: #f6d3a0;
     justify-content: space-around;
     position: relative;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
   }
@@ -59,7 +59,7 @@
     justify-content: space-around;
     font-size: 30px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   body {
