@@ -58,4 +58,26 @@
     align-items: center;
   }
 
-  
+  .form {
+    height:40px;
+    width:250px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 99%;
+    }
+    .text {
+      font-size:20px;
+    }
+    .form {
+      height:20px;
+      width:150px;
+    }
+    .button {
+      width: 100px;
+      height: 30px;
+      font-size: 15px;
+    }
+    
+  }
