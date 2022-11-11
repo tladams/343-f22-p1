@@ -48,3 +48,14 @@
     font-size: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 99%;
+    }
+
+    .image {
+      width:400px;
+      height:200px;
+    }
+  }
