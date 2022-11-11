@@ -89,6 +89,15 @@
     flex-direction: row;
   }
 
+  .side-book {
+    width: 110px;
+    height:165px;
+  }
+
+  .other-text {
+    font-size:15px;
+  }
+
   @media only screen and (max-width: 600px) {
     body {
       width: 90%;
@@ -98,9 +107,10 @@
     }
   
     .side-bar {
-      flex-direction: row;
       width: 10%;
       height: 50px;
+      justify-content:center;
+      align-items: flex-end;
     }
     .image {
       width: 200px;
@@ -112,5 +122,14 @@
     .book {
       width: 80px;
       height: 100px;
+    }
+
+    .side-book {
+      width: 80px;
+      height: 100px;
+    }
+
+    .text {
+      font-size: 7px;
     }
   }
