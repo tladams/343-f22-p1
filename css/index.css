@@ -75,3 +75,27 @@
   body {
     margin: 0;
   }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 90%;
+    }
+    .main {
+      width: 50%;
+    }
+  
+    .side-bar {
+      width: 15%;
+    }
+    .image {
+      width: 200px;
+      height: 100px;
+    }
+    .font {
+      font-size: 30px;
+    }
+    .book {
+      width: 80px;
+      height: 100px;
+    }
+  }
