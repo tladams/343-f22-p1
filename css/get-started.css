@@ -61,6 +61,7 @@
   .form {
     height:40px;
     width:250px;
+    font-size: 20px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -73,6 +74,7 @@
     .form {
       height:20px;
       width:150px;
+      font-size: 15px;
     }
     .button {
       width: 100px;
