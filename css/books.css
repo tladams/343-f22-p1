@@ -104,7 +104,9 @@
     }
   
     .side-bar {
-      width: 15%;
+      flex-direction: row;
+      width: 10%;
+      height: 50px;
     }
     .image {
       width: 200px;
@@ -116,9 +118,5 @@
     .book {
       width: 80px;
       height: 100px;
-    }
-    .side-bar {
-      width: 10%;
-      height: 50px;
     }
   }
