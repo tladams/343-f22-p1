@@ -40,10 +40,6 @@
     flex-direction: column;
   }
 
-  .search {
-    align-items: right;
-  }
-
   .card {
     position:relative;
     display:block;
