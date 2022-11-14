@@ -1,4 +1,4 @@
-# project1-web-design
+# 343-f22-p1
 
 This repository is for my Web Development Project 1. 
 
