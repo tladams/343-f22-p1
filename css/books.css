@@ -57,11 +57,10 @@
     height: 15rem;
     font-size: 9px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
   }
 
   .text {
-    font-size: 15px;
+    font-size: 14px;
     justify-content: space-evenly;
   }
 
@@ -72,7 +71,7 @@
   .main {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 800px;
   }
 
   .side-bar {
@@ -98,9 +97,11 @@
     font-size:15px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     body {
-      width: 90%;
+      width: 100vh;
+      margin: 0;
+      overflow-y: hidden;
     }
     .main {
       width: 50%;
@@ -132,4 +133,15 @@
     .text {
       font-size: 7px;
     }
+
+    .card {
+      width: 5rem; 
+      height: 10rem;
+    }
+
+    .other-text {
+      font-size:9px;
+    }
+
+
   }
