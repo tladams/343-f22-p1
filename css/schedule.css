@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 .topnav {
-    background-color: rgb(251, 127, 3);
+    background-color: #fcc572;
     overflow: hidden;
   }
   
@@ -11,19 +13,18 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #fcc572;
+    background-color: #fdb242;
     color: black;
   }
 
   .table {
-    width: 98.6%;
-    height: 635px;
-    border: 10px solid rgb(251, 127, 3);
+    width: 100vw;
+    height: 100vh;
     background-color: #fcc572;
     align-items: center;
   }
@@ -40,20 +41,20 @@
     background-color: #f6d3a0;
     justify-content: space-around;
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
     text-align: center;
   }
 
   .event {
-    width: 900px;
+    width: 1000px;
     height: 30px;
     border: 1px solid rgb(251, 127, 3);
     background-color: #f6d3a0;
     justify-content: space-around;
     font-size: 30px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   body {

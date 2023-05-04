@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 .topnav {
-    background-color: rgb(171, 4, 254);
+    background-color: rgb(242, 166, 247);
     overflow: hidden;
     text-align: center;
   }
@@ -12,22 +14,22 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(242, 166, 247);
+    background-color: rgb(244, 130, 252);
     color: black;
   }
   
   .page-background {
     background-color: rgb(242, 166, 247);
-    border: 5px solid rgb(171, 4, 254);
-    width: 99.3%;
-    height: 645px;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     align-items: center;
+    padding: 0px;
   }
 
   body {
@@ -41,12 +43,12 @@
 
   .text {
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   .big-text {
     font-size: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   @media only screen and (max-width: 600px) {

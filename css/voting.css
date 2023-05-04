@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:"Roboto", sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:  rgb(193, 196, 200);
+  color: black;
+}
+
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+#header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#title-container{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  height: 3em;
+}
+
+#title {
+  padding-top: 1em;
+}
+
+.top-padding{
+  padding-top:1.5em;
+}
+
+#sub-title{
+  color: black;
+}

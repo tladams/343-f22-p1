@@ -1,3 +1,11 @@
+<?php
+//index.php
+
+  if(!isset($_COOKIE["type"]))
+  {
+    header("location:login.php"); 
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,17 +13,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rainbow Reading!🏳️‍🌈</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="./css/index.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <nav class="topnav">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="schedule.html">Schedule</a>
-        <a href="books.html">Books</a>
-        <a href="members.html">Members</a>
-
-      <!--<input type="text" placeholder="Search.." class="search">-->
+        <a href="books.php">Books</a>
+        <a href="members.php">Members</a>
+        <a href="voting.php">Vote</a>
+        <a href="logout.php">Logout</a>
     </nav>
     <div class="page_background">
       <div class="main">
@@ -26,17 +34,10 @@
         <p class="font">But that’s not all, 
           we have other fun events to look forward to!</p>
       </div>
-      <div class="side-bar">
-        <p class="font">Want to join us?</p>
-        <div class="font">
-          <p>Click Here!</p>
-        </div>
-        <form action="get-started.html">
-          <button class="button" style="font-size:30px;">Get Started</button>
-        </form>
+      <!-- <div class="side-bar">
         <p style="font-size:large;"><strong>Book of the Month:</strong></p>
         <img src="images/call-me-by-your-name.jpg" alt="Call Me By Your Name Book Cover" class="book">
-      </div>
+      </div> -->
     </div> 
 </body>
 </html>

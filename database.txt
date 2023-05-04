@@ -1,0 +1,41 @@
+--
+-- Database: `bookclub`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_details`
+--
+
+CREATE TABLE IF NOT EXISTS `user_details` (
+  `user_id` int(11) NOT NULL,
+  `user_email` varchar(200) NOT NULL,
+  `user_password` varchar(200) NOT NULL,
+  `user_lname` varchar(200) NOT NULL,
+  `user_fname` varchar(255) NOT NULL,
+  `user_type` enum('master','user') NOT NULL,
+  `user_image` varchar(150) NOT NULL,
+  `user_status` enum('Active','Inactive') NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+
+--
+-- Adding data to `user_details`
+--
+
+INSERT INTO `user_details` (`user_id`, `user_email`, `user_password`, `user_lname`, `user_fname`,`user_type`, `user_image`, `user_status`) VALUES
+(1, 'abdullahamo@gmail.com', '$2y$10$cHpf3TzonURXDENRiRF0de1ycSfnM4NJ27sdwyUCf5L.sewDlkCBe', 'Mohammad', 'Abdullah', 'master', 'amo.jpg', 'Active'),
+(2, 'tessadams@gmail.com', '$2y$10$lcLYyNeK1adgzYcBplv45uuXHFuFyWYThnj3nB2SZ/LbQvtWSoGjO', 'Adams', 'Tessa', 'master', 'tessa.jpg', 'Active'),
+(3, 'DontUpsetTheWookie@indy.com', '$2y$10$XlyVI9an5B6rHW3SS9vQpesJssKJxzMQYPbSaR7dnpWjDI5fpxJSS', 'Solo', 'Han', 'user', 'han.jpg', 'Active'),
+(4, 'LukeIAmYourFather@thedarkside.com', '$2y$10$n1B.FdHNwufTkmzp/pNqc.EiwjB8quQ1tBCEC7nkaldI5pS.et04e', 'Vader', 'Darth', 'user', 'darth.jpg', 'Active');
+
+-- Adding PK to user_details
+
+ALTER TABLE `user_details`
+  ADD PRIMARY KEY (`user_id`);
+
+--
+-- AUTO_INCREMENT for table `user_details`. this will autoincrement future users ids
+--
+ALTER TABLE `user_details`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
